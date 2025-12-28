@@ -30,8 +30,11 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 const corsOptions = {
-  //origin: "http://localhost:5173", // frontend origin
-  origin: "*",
+  origin: [
+    "http://localhost:5173", // frontend origin
+    "https://rajyog-frontend.vercel.app"
+  ],
+  //origin: "*",
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"], // include OPTIONS for preflight
   allowedHeaders: ["Content-Type", "Authorization"],
     credentials: false, // must include Authorization
