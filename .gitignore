@@ -1,0 +1,59 @@
+# ===============================
+# Dependencies
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.local
+.env.development
+.env.production
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# Build / Runtime
+# ===============================
+dist/
+build/
+.cache/
+.tmp/
+temp/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# ===============================
+# Git
+# ===============================
+.git/
+.gitignore~
+
+# ===============================
+# Testing / Coverage
+# ===============================
+coverage/
+
+# ===============================
+# Misc
+# ===============================
+*.pid
+*.seed
+*.pid.lock
